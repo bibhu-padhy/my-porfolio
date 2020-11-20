@@ -1,0 +1,30 @@
+.nav_caontainer {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nav_brand {
+    cursor: pointer;
+    margin: 0 20px;
+  }
+
+
+  .nav_links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+    .nav {
+      cursor: pointer;
+      margin-right: 20px;
+    }
+  }
+}
+
+.on_hover:hover {
+  transition: all 200ms ease;
+  color: gray;
+  transform: scale(1.1);
+  font-weight: 500;
+}
