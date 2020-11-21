@@ -10,3 +10,10 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.active_link {
+  transition: all 200ms ease;
+  color: gray;
+  transform: scale(1.1);
+  font-weight: 500;
+}

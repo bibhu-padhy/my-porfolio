@@ -1,24 +1,13 @@
 <div class="nav_caontainer shadow-sm">
-  <div class="nav_brand on_hover">
+  <div class="nav_brand on_hover" routerLink="/home" routerLinkActive="active_link">
     <span>
       Bibhu Padhy
     </span>
   </div>
-  <div class="nav_links">
-    <div class="nav on_hover">
+  <div class="nav_links" *ngIf="(navItems | async) as items">
+    <div [routerLink]=item.NavItemLink routerLinkActive="active_link" class="nav on_hover" *ngFor="let item of items">
       <span>
-        CV
-      </span>
-    </div>
-    <div class="nav on_hover">
-      <span>
-        POSTS
-      </span>
-    </div>
-    <div class="nav on_hover">
-      <span>
-        APP STORE
+        {{item.NavItemName}}
       </span>
     </div>
   </div>
-</div>

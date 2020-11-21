@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "bibhu-padhy"
+  },
+  "targets": {
+    "bibhu-padhy": {
+      "hosting": {
+        "bibhu-padhy": [
+          "bibhu-padhy"
+        ]
+      }
+    }
   }
 }

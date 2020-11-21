@@ -17,7 +17,7 @@ const routes: Routes = [
     loadChildren: () => import('src/app/view/app-store/app-store.module').then(m => m.AppStoreModule)
   },
   {
-    path: 'blogs',
+    path: 'blog',
     loadChildren: () => import('src/app/view/blogs/blogs.module').then(m => m.BlogsModule)
   },
   {
