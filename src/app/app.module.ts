@@ -10,8 +10,10 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 
 import { firebaseConfig } from './util/config';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +27,7 @@ import { firebaseConfig } from './util/config';
     AngularFireAuthModule,
     AngularFireDatabaseModule,
     AngularFirestoreModule.enablePersistence(),
+    AngularFireStorageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

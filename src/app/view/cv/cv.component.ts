@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
+
+  downloadURL: Promise<string>;
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }
