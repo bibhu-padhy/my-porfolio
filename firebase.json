@@ -1,12 +1,12 @@
 {
-  "hosting": [
-    {
+  "hosting": [{
       "public": "dist/bibhu-padhy",
       "ignore": [
         "firebase.json",
         "**/.*",
         "**/node_modules/**"
-      ]
+      ],
+      "target": "bibhu-padhy"
     },
     {
       "target": "bibhu-padhy",
@@ -16,12 +16,10 @@
         "**/.*",
         "**/node_modules/**"
       ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
+      "rewrites": [{
+        "source": "**",
+        "destination": "/index.html"
+      }]
     }
   ]
 }
