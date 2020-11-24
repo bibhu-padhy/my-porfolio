@@ -17,7 +17,7 @@ import { firebaseConfig } from './util/config';
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,

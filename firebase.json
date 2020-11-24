@@ -1,12 +1,12 @@
 {
   "hosting": [{
+      "target": "bibhu-padhy",
       "public": "dist/bibhu-padhy",
       "ignore": [
         "firebase.json",
         "**/.*",
         "**/node_modules/**"
-      ],
-      "target": "bibhu-padhy"
+      ]
     },
     {
       "target": "bibhu-padhy",
